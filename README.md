@@ -1,5 +1,7 @@
-# aws-lambda-unzip
-Java 8 Function for AWS Lambda to extract gzipped log files uploaded to S3
+# aws-lambda-ungzip-logs-from-s3
+(Forked from [aws-lambda-unzip](https://github.com/Craftware/aws-lambda-unzip))
+
+Java 8 Function for AWS Lambda to extract gzipped log files uploaded to S3, i.e. Elastic Beanstalk logs.
 
 Files are extracted in place in the same bucket as where the zip file was uploaded. Any files present with the same name are overwritten. The gzip file is deleted at the end of the operation.
 
