@@ -20,7 +20,7 @@ In order to remove the uploaded zip file, the role configured in your Lambda fun
 ```
 
 ## Handler Configuration
-Handler property should be configured to `kornell.S3EventProcessorUnzip::handleRequest`
+Handler property should be configured to `io.sharptop.aws.S3EventProcessorUnzip::handleRequest`
 
 ## Packaging for deployment
 Maven is already configured to package the .jar file correctly for deployment into Lambda. Just run
